@@ -1,0 +1,98 @@
+.el-header,
+			.el-footer {
+				background-color: #545c64;
+				color: #ffd04b;
+				text-align: center;
+				line-height: 60px;
+			}
+			
+			[v-cloak] {
+				display: none !important;
+			}
+			.el-menu-item{
+                color: #ffd04b;  
+            }
+			.el-aside {
+				background-color: #545c64;
+				color: #ffd04b;
+				text-align: center;
+				line-height: 200px;
+			}
+			
+			.el-main {
+				background-color: #FFF;
+				color: #ffd04b;
+				text-align: center;
+				/*line-height: 160px;*/
+			}
+			
+			body>.el-container {
+				margin-bottom: 40px;
+			}
+			
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.el-row,
+			.el-col {
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+			}
+			
+			.el-col {
+				/*border-radius: 4px;*/
+				background-color: #FFF;
+			}
+			
+			.el-col-bag {
+				background-color: #545c64;
+			}
+			
+			.grid-content {
+				border-radius: 4px;
+				min-height: 36px;
+			}
+			
+			.row-bg {
+				padding: 10px 0;
+				background-color: #545c64;
+			}
+			/*卡片*/
+			
+			.text {
+				font-size: 14px;
+			}
+			
+			.item {
+				margin-bottom: 18px;
+			}
+			
+			.clearfix:before,
+			.clearfix:after {
+				display: table;
+				content: "";
+			}
+			
+			.clearfix:after {
+				clear: both
+			}
+			
+			#allmap {
+				height: 240px;
+				width: 100%;
+				position: relative;
+				/*left: 430px;
+				top: 240px;*/
+			}
+			
+			.withe {
+				background: #fff;
+			}
+			/*表格*/
+			
+			.el-table .warning-row {
+				background: oldlace;
+			}
